@@ -4,7 +4,7 @@
 
 void PrintIntroduction(int Difficulty)
 {
-	std::cout << "\n\nIncognito:>Lets play the game, my little friend...\n";
+	std::cout << "Incognito:>Lets play the game, my little friend...\n";
 	//std::cout << "." << '\n';
 	std::cout << "Incognito:>The level is " << Difficulty << "..." << '\n';
 	//std::cout << "." << '\n';
@@ -31,13 +31,6 @@ bool PlayGame(int Difficulty)
 	std::cout << "+ The codes multiply to give: " << CodeMult << '\n';
 
 	// Store player guess
-// 	std::string GuessA;
-// 	std::string GuessB;
-// 	std::string GuessC;
-// 	std::cin >> GuessA;
-// 	std::cin >> GuessB;
-// 	std::cin >> GuessC;
-
 	int GuessA, GuessB, GuessC;
 	std::cin >> GuessA >> GuessB >> GuessC;
 
